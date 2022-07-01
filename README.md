@@ -6,6 +6,8 @@ Created by Jesús Balado Frías, Elena González, Juan L. Rodríguez-Somoza and 
 
 Although point features have shown their usefulness in classification with Machine Learning, point cloud visualization enhancement methods focus mainly on lighting. The visualization of point features helps to improve the perception of the 3D environment. This work proposes Multi Feature-Rich Synthetic Colour (MFRSC) as an alternative non-photorealistic colour approach of natural-coloured point clouds. The method is based on the selection of nine features (reflectance, return number, inclination, depth, height, point density, linearity, planarity, and scattering) associated with five human perception descriptors (edges, texture, shape, size, depth, orientation). The features are reduced to fit the RGB display channels. 
 
+![](https://imgur.com/a/vylLJCx)
+
 ## Work
 
 The designed method is described in the article ****Multi Feature-Rich Synthetic Colour to improve human visual perception of point clouds****.
