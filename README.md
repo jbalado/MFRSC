@@ -14,16 +14,12 @@ The designed method is described in the article ****Multi Feature-Rich Synthetic
 
 Before applying the code, reading the paper is highly recommended.
 
-It is available in Open Access at this [link](Pendiente).
+It is available in Open Access at this [link](https://doi.org/10.1016/j.isprsjprs.2023.01.019).
 
 
 ## Application
-The code consists of two fundamental functions: erosion followed by dilation. The first fuction (erosion) require two input point clouds: 
-* Point cloud input: composed of an NxA matrix, where N is the number of points and A the number of attributes, XYZ being the first three.
-* Point cloud strutcturing element: composed of an Nx3 matrix, where N is the number of points. It is the auxiliary point cloud that acts as a structuring element.
-
-The output is a segmented point cloud.
-
+After the selection of the corresponding atributes of geometry (XYZ) and reutrn number, the code generate a synthetic coloured point cloud, loadable in any software for visualization.
 
 ## Citation
-Pendiente
+Balado, J., González, E., Rodríguez-Somoza, J.L. & Arias, P. (2023) Multi feature-rich synthetic colour to improve human visual perception of
+point clouds. ISPRS Journal of Photogrammetry and Remote Sensing, 196, 514-527.
