@@ -32,9 +32,9 @@ Mdl = KDTreeSearcher(nube.Location);
 features.dens = dist(:,2)./dist(:,5); %Densidad
 
 % Eigen values
-for i = 1 : nube.Count
-    [~,~,features.e_values(i,1:3)] = pca(nube.Location(ind_knn(i,:),:));   
-end
+element = 1 : nube.Count;
+[~,~,e_values] = arrayfun(@(x) pca(nube.Location(ind_knn(x,:),1:3)), element,'UniformOutput', false);
+features.e_values = cell2mat(e_values)';
 
 % Linearity
 features.linear = (features.e_values(:,1)-features.e_values(:,2))./features.e_values(:,1);
