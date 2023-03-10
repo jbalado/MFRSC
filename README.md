@@ -16,6 +16,8 @@ Before applying the code, reading the paper is highly recommended.
 
 It is available in Open Access at this [link](https://doi.org/10.1016/j.isprsjprs.2023.01.019).
 
+Tutorials in Spanish and English, and code in python is available [here](https://github.com/jbalado/Tutorials).
+
 
 ## Application
 After the selection of the corresponding atributes of geometry (XYZ) and reutrn number, the code generate a synthetic coloured point cloud, loadable in any software for visualization.
