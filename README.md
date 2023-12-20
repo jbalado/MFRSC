@@ -1,6 +1,6 @@
 # Multi Feature-Rich Synthetic Colour (MFRSC) for point clouds
 
-Created by Jesús Balado Frías, Elena González, Juan L. Rodríguez-Somoza and Pedro Arias
+Created by Jesús Balado Frías, Elena González, Juan L. Rodríguez-Somoza and Pedro Arias at University of Vigo
 
 Tutorials in Spanish and English, and code in python is available [here](https://github.com/jbalado/Tutorial-MFRSC).
 
